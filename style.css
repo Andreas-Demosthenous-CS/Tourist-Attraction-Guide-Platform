@@ -1,0 +1,228 @@
+h3 {
+    text-align: center;
+}
+
+.dropdown button {
+    border: 1px solid #ced4da;
+}
+
+#btn-container {
+    margin-top: 32px;
+}
+
+#btn-container button {
+    height: 37px;
+}
+
+#city_dropdown{
+    background-color: white;
+}
+
+#city button {
+    width: 150px !important;
+    min-width: 150;
+    text-align: left;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+.err {
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+#btn-container {
+    width: 100%;
+}
+
+#search-btn{
+    margin-right:10px;
+}
+
+#log-btn{
+    margin-left:5px;
+}
+
+body {
+    background-image: url("sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#my_cont {
+    width: 100%;
+}
+
+.row {
+    background-color: rgba(254, 254, 254, 0.5);
+    margin: 0, auto;
+    border-radius: 6px;
+    padding: 20px;
+    width: 100%
+}
+
+@media (max-width:575px) {
+    form {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .box_map {
+        width: 100% !important;
+    }
+
+    .box_info {
+        width: 100% !important;
+    }
+    #icon{
+        width: 140px;
+    }
+    #degrees_val{
+        font-size: 27px;
+    }
+    .description{
+        font-size: 10px;
+    }
+
+}
+
+#icon{
+    width: 120px;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+}
+
+.tab-pane {
+
+    background-color: white;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-tabs .nav-link .clicked {
+
+    color: rgba(9, 106, 233, 0.769) !important;
+    background-color: white !important;
+}
+
+.clicked {
+    color: rgba(9, 106, 233, 0.769) !important;
+    background-color: white !important;
+}
+
+
+.nav-tabs .nav-link:not(.clicked) {
+    color: white !important;
+    background-color: rgba(9, 106, 233, 0.769) !important;
+}
+
+.box_info {
+    float: left;
+    width: 50%;
+}
+
+.box_map {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.info_map_container {
+    width: 100%;
+    overflow: hidden;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+table {
+    border-collapse: unset !important;
+}
+
+td,
+th {
+    text-align: center !important;
+    vertical-align: top;
+    width: 50%;
+}
+
+td,
+th {
+    width: 20%;
+}
+
+.description {
+    font-weight: normal;
+    /* font-size: 10px; */
+}
+
+.degrees {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.lo {
+    color: blue;
+}
+
+.hi {
+    color: red;
+}
+
+.icon_head {
+    text-align: left !important;
+
+    vertical-align: bottom;
+}
+
+#icon {
+    padding-left: 30px;
+}
+
+.btn-success {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+#results {
+    display: none;
+}
+
+.table {
+    padding: 0 15px;
+}
+
+
+.lh-large {
+    line-height: 2.5;
+}
+
+.attractions-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.loading_icon{
+    margin: 0 auto!important;
+    display: block!important;
+}
+
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 700px!important;
+        margin: 1.75rem auto;
+    }
+}
